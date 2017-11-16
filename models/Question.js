@@ -16,7 +16,7 @@ class Question{
   return new Promise(function(resolve){
       db.run(sql, function(){
         console.log("...users table created!")
-        resolve("Success")        
+        resolve("Success")
       })
     })
 }
