@@ -1,6 +1,7 @@
 'use strict';
 
 const db = require("../config/db")
+const sqlite3 = require('sqlite3').verbose()
 
 class Question{
   static CreateTable(){
