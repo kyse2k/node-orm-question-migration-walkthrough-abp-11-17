@@ -11,7 +11,6 @@ class Question{
         age INTEGER
       )
     `
-  }
   console.log("Preparing to create the users table...")
   return new Promise(function(resolve){
       db.run(sql, function(){
@@ -19,6 +18,7 @@ class Question{
         resolve("Success")
       })
     })
+  }
 }
 
 
