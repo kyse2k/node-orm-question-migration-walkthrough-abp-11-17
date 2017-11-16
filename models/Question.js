@@ -1,6 +1,6 @@
 'use strict';
 
-const db = require("../config/db.js")
+const db = require("../config/db")
 
 class Question{
   static CreateTable(){
